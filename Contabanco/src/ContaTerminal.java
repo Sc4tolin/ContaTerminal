@@ -1,5 +1,10 @@
 import java.util.Scanner;
 public class ContaTerminal {
+    //Fechamento do Scanner: Finalizamos a execução do Scanner usando o método close() para liberar recursos.
+
+    
+    //Entrada de Dados: Usamos métodos nextLine() e nextInt() do Scanner para ler as entradas do usuário e armazená-las nas variáveis agencia, numero, nomeCliente e saldo.
+   
     //TODO: conhecer e importar a classe scanner (Feito)
         // Exibir as mensagens para o nosso usuario 
         // Obter pela classe scanner os valores digitados no terminal
@@ -29,7 +34,8 @@ public class ContaTerminal {
 
 
 
-        
+        sc.close();
+
         
     }
 
